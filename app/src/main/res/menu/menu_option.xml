@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xmlOptionsMenu">
+
+    <item
+        android:id="@+id/sendDocumentsMenu"
+        android:title="@string/send_documents" />
+    <item android:id="@+id/listDocumentMenu"
+        android:title="@string/list_documents" />
+    <item android:id="@+id/getOfficesMenu"
+        android:title="@string/offices" />
+    <item android:id="@+id/darkModeMenu"
+        android:title="@string/dark_mode" />
+    <item
+        android:id="@+id/languageMenu"
+        android:title="@string/english_mode" />
+    <item
+        android:id="@+id/logoutMenu"
+        android:title="@string/logout" />
+</menu>

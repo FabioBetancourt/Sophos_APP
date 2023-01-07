@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name" translatable="false">Sophos App</string>
+
+
+    <!--Sign in fragment-->
+    <string name="legend">Ingresa tus datos para acceder</string>
+    <string name="fingerprint_btn">Ingresar con huella</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">Ingresar</string>
+    <string name="email">Correo</string>
+    <string name="sign_in_error">Correo o contraseña incorrectos</string>
+    <string name="authentication_error">Error de autenticación: </string>
+    <string name="authentication_succeeded">¡Autenticación exitosa!</string>
+    <string name="authentication_failed">Autenticación fallida</string>
+    <string name="biometric_tittle">Acceso Biométrico Sophos</string>
+    <string name="biometric_subtitle">Ingresa usando las credenciales biométricas</string>
+    <string name="biometric_negative">Usar email y contraseña</string>
+    <string name="biomanager_success">Autenticación biométrica disponible</string>
+    <string name="biomanager_error_hardware">Autenticación biométrica no disponible en este dispositivo</string>
+    <string name="biomanager_permission_unavailable">Autenticación biométrica no disponible actualmente</string>
+    <string name="validate_email">El campo ingresado debe ser un correo valido "@"</string>
+    <string name="alert_title">Uso de autenticación biométrica</string>
+    <string name="alert_message">Por favor ingrese con correo y contraseña para poder activar la funcion de huella biometrica</string>
+
+    <!--welcome fragment-->
+    <string name="welcome">Bienvenido</string>
+    <string name="legend_welcome">Estas son las opciones que tenemos para ti</string>
+
+
+
+    <!--menu-->
+    <string name="send_documents">Enviar Documentos</string>
+    <string name="list_documents">Ver Documentos</string>
+    <string name="offices">Oficinas</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="light_mode">Modo claro</string>
+    <string name="english_mode">English language</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="come_back">Regresar</string>
+
+
+    <!--send document fragment-->
+    <string name="send_documentation">Envío de documentación</string>
+    <string name="id">Número de documento</string>
+    <string name="names">Nombres</string>
+    <string name="last_name">Apellidos</string>
+    <string name="document">Documento</string>
+    <string name="send">Enviar</string>
+    <string name="city">Ciudad</string>
+    <string name="document_has_been_sent">Documento enviado</string>
+    <string name="field_in_fields">Por favor llenar TODOS los campos</string>
+    <string name="camera_permission">El permiso fue previamente denegado, habilítelo en configuraciones.</string>
+    <string name="failed_result_photo">La foto no fue tomada</string>
+    <string name="failed_result_gallery">la imagen no fue cargada</string>
+    <string name="on_send_document">Envío de documentación exitoso!</string>
+    <string name="attached_type">Tipo de adjunto</string>
+
+    <!--List Document Fragment -->
+    <string name="documents">Documentos</string>
+    <string name="document_type">Tipo de documento</string>
+    <string name="on_documents">Actualmente en documentos</string>
+
+    <!--Get Offices Fragment-->
+    <string name="location_permission">Habilite el permiso de ubicacion en la configuración</string>
+    <string name="on_offices">Actualmente en oficinas</string>
+
+
+
+</resources>

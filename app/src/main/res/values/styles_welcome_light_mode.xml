@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <style name="styleCardSendDocumentsLight" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="strokeColor">@color/sophos_pink</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+
+    <style name="styleImageViewSendDocuments">
+        <item name="android:src">@drawable/ic_send_documents_light_mode</item>
+    </style>
+
+
+    <style name="styleTextViewSendDocuments">
+        <item name="android:textColor">@color/sophos_pink</item>
+    </style>
+
+
+
+    <style name="styleWelcomeButton1Light" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/borders_principal_page_pink_light_mode</item>
+        <item name="android:textColor">@color/sophos_pink</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:drawableTint" tools:targetApi="m">@color/sophos_pink</item>
+    </style>
+
+
+    <style name="styleCardListDocumentsLight" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="strokeColor">@color/light_color</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+
+    <style name="styleImageViewListDocuments">
+        <item name="android:src">@drawable/ic_list_documents_light_mode</item>
+    </style>
+
+
+    <style name="styleTextViewListDocuments">
+        <item name="android:textColor">@color/light_color</item>
+    </style>
+
+
+
+    <style name="styleWelcomeButton2Light" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/rounded_border_light_mode</item>
+        <item name="android:textColor">@color/light_color</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:drawableTint" tools:targetApi="m">@color/light_color</item>
+    </style>
+
+
+    <style name="styleCardGetOfficesLight" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="strokeColor">@color/sophos_green</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+
+    <style name="styleImageViewGetOffices">
+        <item name="android:src">@drawable/ic_get_office_light</item>
+    </style>
+
+
+    <style name="styleTextViewGetOffices">
+        <item name="android:textColor">@color/sophos_green</item>
+    </style>
+
+
+
+    <style name="styleWelcomeButton3Light" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/borders_principal_page_green_light_mode</item>
+        <item name="android:textColor">@color/sophos_green</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:drawableTint" tools:targetApi="m">@color/sophos_green</item>
+    </style>
+</resources>

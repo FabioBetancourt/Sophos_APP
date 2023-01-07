@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sign In fragment -->
+    <string name="legend">Enter your credentials to access</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="fingerprint_btn">Sign in with fingerprint</string>
+    <string name="sign_in">Continue</string>
+    <string name="sign_in_error">The email or password entered is invalid</string>
+    <string name="authentication_error">Authentication error:</string>
+    <string name="authentication_succeeded">Authentication succeeded!</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="biometric_tittle">Biometric log in Sophos</string>
+    <string name="biometric_subtitle">Log in using your biometric credentials</string>
+    <string name="biometric_negative">Use account and password</string>
+    <string name="biomanager_success">App can authenticate using biometrics</string>
+    <string name="biomanager_error_hardware">No biometric features available on this device</string>
+    <string name="biomanager_permission_unavailable">Biometric features are currently unavailable</string>
+    <string name="validate_email">Field must be an email</string>
+    <string name="alert_title">User\'s Fingerprint</string>
+    <string name="alert_message">To use this function you have to login with your email and password once</string>
+
+
+    <!-- Welcome fragment -->
+    <string name="welcome">Welcome</string>
+    <string name="legend_welcome">These are the options that we have for you</string>
+
+
+
+    <!--menu-->
+    <string name="send_documents">Send documents</string>
+    <string name="list_documents">See documents</string>
+    <string name="offices">Offices</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="english_mode">Idioma Español</string>
+    <string name="logout">Logout</string>
+    <string name="come_back">Back</string>
+
+    <!--send document fragment-->
+    <string name="send_documentation">Sending documents</string>
+    <string name="id">ID Number</string>
+    <string name="names">Names</string>
+    <string name="last_name">Last name</string>
+    <string name="document">Document</string>
+    <string name="send">Send</string>
+    <string name="city">City</string>
+    <string name="document_has_been_sent">Document has been sent</string>
+    <string name="field_in_fields">Please fill out ALL fields</string>
+    <string name="camera_permission">The permission was previously denied, allow it in settings.</string>
+    <string name="failed_result_photo">Photo was not taken</string>
+    <string name="failed_result_gallery">Image was not uploaded</string>
+    <string name="on_send_document">You are currently in sending documents</string>
+    <string name="attached_type">Attachment type</string>
+    <string name="document_type">Type of identification</string>
+
+
+    <!--List Document Fragment -->
+    <string name="documents">Documents</string>
+    <string name="on_documents">You are currently in documents</string>
+
+    <!--Get Offices Fragment-->
+    <string name="location_permission">Set up location permissions in settings</string>
+    <string name="on_offices">You are currently in offices</string>
+</resources>
