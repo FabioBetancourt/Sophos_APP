@@ -1,6 +1,6 @@
 # Sophos App - Consumiendo Servicios de API con Patrón MVVC y Geolocalización
 
-![Sophos App Logo]([link_to_logo.png](https://media.licdn.com/dms/image/C560BAQHT3nIotwrllQ/company-logo_200_200/0/1654112387462?e=2147483647&v=beta&t=NUxlnWIVGM5UXyw2YTQXjiiPuN29dKdKE5W-x0Y8Huc))
+![Sophos App Logo](link_to_logo.png)
 
 ## Introducción
 
