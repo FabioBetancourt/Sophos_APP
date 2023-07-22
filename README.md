@@ -14,7 +14,7 @@ Sophos App es una innovadora aplicación móvil que permite a los usuarios acced
 
 ## Tecnologías Utilizadas
 
-- Lenguaje de Programación: Swift (iOS) / Kotlin (Android).
+- Lenguaje de Programación: Kotlin (Android).
 - Patrón de Arquitectura: MVVC.
 - Herramientas de Geolocalización: API de geolocalización de Sophos y otros proveedores.
 
