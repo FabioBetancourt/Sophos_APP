@@ -1,49 +1,49 @@
-# Sophos App - Consumiendo Servicios de API con Patrón MVVC y Geolocalización
+# Sophos App - Consuming API Services with MVVC Pattern and Geolocation
 
 ![Sophos App Logo](link_to_logo.png)
 
-## Introducción
+## Introduction
 
-Sophos App es una innovadora aplicación móvil que permite a los usuarios acceder a información geográfica relevante mediante servicios de API. La aplicación utiliza patrones de arquitectura MVVC (Model-View-View Model-Controller) para garantizar una estructura clara y mantenible. Además, integra funcionalidades de geolocalización, permitiendo a los usuarios realizar peticiones POST y GET para obtener y enviar datos geográficos de manera efectiva.
+Sophos App is an innovative mobile application that allows users to access relevant geographical information through API services. The app utilizes MVVC (Model-View-View Model-Controller) architecture patterns to ensure a clear and maintainable structure. Additionally, it integrates geolocation functionalities, enabling users to make POST and GET requests to efficiently obtain and send geographical data.
 
-## Características Principales
+## Key Features
 
-- Visualización de datos geográficos en tiempo real.
-- Búsqueda y filtrado de información mediante peticiones POST y GET.
-- Arquitectura MVVC para facilitar el desarrollo y mantenimiento del código.
+- Real-time visualization of geographical data.
+- Search and filtering of information through POST and GET requests.
+- MVVC architecture to facilitate code development and maintenance.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- Lenguaje de Programación: Kotlin (Android).
-- Patrón de Arquitectura: MVVC.
-- Herramientas de Geolocalización: API de geolocalización de Sophos y otros proveedores.
+- Programming Language: Kotlin (Android).
+- Architecture Pattern: MVVC.
+- Geolocation Tools: Sophos Geolocation API and other providers.
 
-## Arquitectura MVVC
+## MVVC Architecture
 
-La arquitectura MVVC es una variante del patrón MVC que promueve una mayor separación de preocupaciones y una estructura más organizada. En Sophos App, la arquitectura se divide en los siguientes componentes:
+The MVVC architecture is a variant of the MVC pattern that promotes a higher separation of concerns and a more organized structure. In Sophos App, the architecture is divided into the following components:
 
-- **Model**: Representa los datos y las reglas de negocio de la aplicación. Aquí se manejan las peticiones a la API y se gestionan las respuestas recibidas.
+- **Model**: Represents the data and business rules of the application. Here, API requests are handled, and the received responses are managed.
 
-- **View**: Es la capa de presentación que muestra la información al usuario y maneja las interacciones con la interfaz.
+- **View**: The presentation layer that displays information to the user and manages interactions with the interface.
 
-- **View Model**: Actúa como un intermediario entre el Model y la View. Aquí se procesan los datos y se preparan para su visualización en la interfaz. También se encarga de manejar la lógica de negocio relacionada con la geolocalización.
+- **View Model**: Acts as an intermediary between the Model and the View. Here, data is processed and prepared for visualization on the interface. It is also responsible for handling business logic related to geolocation.
 
-- **Controller**: En el caso de Sophos App, el Controller es responsable de manejar las peticiones POST y GET a la API y de actualizar el Model y el View según corresponda.
+- **Controller**: In the case of Sophos App, the Controller is responsible for handling POST and GET requests to the API and updating the Model and View accordingly.
 
-## Geolocalización y Peticiones POST/GET
+## Geolocation and POST/GET Requests
 
-La funcionalidad principal de Sophos App gira en torno a la geolocalización. Los usuarios pueden realizar peticiones POST para enviar su ubicación actual al servidor y obtener información geográfica relevante. Del mismo modo, las peticiones GET permiten obtener datos geográficos basados en los parámetros proporcionados por el usuario.
+The main functionality of Sophos App revolves around geolocation. Users can make POST requests to send their current location to the server and obtain relevant geographical information. Similarly, GET requests allow users to obtain geographical data based on the parameters provided.
 
-El flujo típico de una solicitud POST/GET en Sophos App es el siguiente:
+The typical flow of a POST/GET request in Sophos App is as follows:
 
-1. El usuario interactúa con la interfaz para enviar una ubicación o configurar los parámetros de búsqueda.
-2. El View Model recopila los datos necesarios y construye la solicitud POST o GET.
-3. El Controller envía la solicitud a la API de Sophos u otro proveedor de geolocalización.
-4. El servidor procesa la solicitud y devuelve la información solicitada.
-5. El Controller actualiza el Model con los datos recibidos.
-6. El View Model procesa los datos y los prepara para ser visualizados.
-7. La View muestra los resultados al usuario de manera clara y concisa.
+1. The user interacts with the interface to send a location or configure search parameters.
+2. The View Model collects the necessary data and constructs the POST or GET request.
+3. The Controller sends the request to the Sophos API or another geolocation provider.
+4. The server processes the request and returns the requested information.
+5. The Controller updates the Model with the received data.
+6. The View Model processes the data and prepares it for visualization.
+7. The View displays the results to the user clearly and concisely.
 
-## Conclusiones
+## Conclusions
 
-Sophos App es una aplicación móvil que combina la potencia de la geolocalización con patrones de arquitectura MVVC para ofrecer a los usuarios una experiencia fluida y enriquecedora al acceder a información geográfica. Mediante peticiones POST y GET, los usuarios pueden enviar y recibir datos de manera efectiva, lo que hace de Sophos App una herramienta valiosa para aquellos que desean explorar y comprender mejor el mundo que los rodea.
+Sophos App is a mobile application that combines the power of geolocation with MVVC architecture patterns to offer users a smooth and enriching experience when accessing geographical information. Through POST and GET requests, users can efficiently send and receive data, making Sophos App a valuable tool for those who wish to explore and better understand the world around them.
